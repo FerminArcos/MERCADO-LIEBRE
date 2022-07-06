@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.vista-ofertas {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+header {
+    background-color: #EAC926;
+}
