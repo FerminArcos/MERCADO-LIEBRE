@@ -1,5 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+    size-adjust: 100%;
+}
+
+footer {
+    background-color: white;
 }
 
 .vista-ofertas {
@@ -8,6 +18,10 @@ body {
 
 p {
     font-size: 12px;
+}
+
+.textoManito {
+    text-align: center;
 }
 
 h4 {
@@ -23,11 +37,6 @@ h3 {
     font-size: 16px;
 }
 
-header {
-    background-color: #EAC926;
-    size-adjust: 100%;
-}
-
 #icono {
     width: 100px;
     height: 100px;
@@ -37,7 +46,30 @@ header {
     list-style-type: none;
 }
 
-.formatoMenu li {
+.formatoMenu li a {
     text-decoration: none;
     color: black;
+}
+
+.botonDiv {
+    text-align: center;
+}
+
+.botonMenu {
+    background-color: #1259c3;
+    color: white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+footer div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer div i {
+    width: 2em;
+    height: 2em;
+    color: #1259c3;
 }
