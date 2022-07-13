@@ -25,9 +25,19 @@ h3 {
 
 header {
     background-color: #EAC926;
+    size-adjust: 100%;
 }
 
 #icono {
     width: 100px;
     height: 100px;
+}
+
+.formatoMenu {
+    list-style-type: none;
+}
+
+.formatoMenu li {
+    text-decoration: none;
+    color: black;
 }
