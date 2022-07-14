@@ -65,7 +65,8 @@ h3 {
 
 footer div {
     text-align: center;
-    line-height: 10px;
+    line-height: 15px;
+    padding: 0px 40px;
 }
 
 footer div i {
