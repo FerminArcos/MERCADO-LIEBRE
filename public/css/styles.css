@@ -38,6 +38,11 @@ footer {
     margin: 10px;
 }
 
+.publicaciones div {
+    border-top: solid 1px #ebebeb;
+    line-height: 1px;
+}
+
 .img {
     width: 100%;
 }
@@ -45,6 +50,9 @@ footer {
 .fa-truck {
     color: #39b54a;
     justify-content: center;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    padding: 6px;
 }
 
 p {
