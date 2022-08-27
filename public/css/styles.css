@@ -11,6 +11,7 @@ body {
 header {
     background-color: #EAC926;
     size-adjust: 100%;
+    padding-bottom: 0px;
 }
 
 main {
@@ -19,6 +20,10 @@ main {
 
 footer {
     background-color: white;
+}
+
+.divBanner {
+    margin: 0px;
 }
 
 .banner {
@@ -76,6 +81,10 @@ h3 {
     font-size: 16px;
 }
 
+#soloDesk {
+    display: none;
+}
+
 #icono {
     width: 100px;
     height: 100px;
@@ -92,6 +101,7 @@ h3 {
 
 .botonDiv {
     text-align: center;
+    margin: 20px;
 }
 
 .botonMenu {
@@ -100,6 +110,10 @@ h3 {
     border-radius: 5px;
     width: 30px;
     height: 30px;
+}
+
+#soloMobile {
+    display: block;
 }
 
 footer div {
@@ -115,4 +129,22 @@ footer div i {
 
 footer div p {
     color: #666;
+}
+
+@media (min-width: 361px) {
+    .publicaciones {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    #soloDesk {
+        display: block;
+    }
+    #soloMobile {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .publicaciones {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
 }
