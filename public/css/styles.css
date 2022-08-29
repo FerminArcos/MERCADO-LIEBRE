@@ -22,8 +22,26 @@ footer {
     background-color: white;
 }
 
+.div-logo {
+    width: 30%;
+}
 .logo {
-    width: 180px;
+    width: 60%;
+}
+
+.busqueda {
+    width: 50%;
+}
+
+.barra-busqueda {
+    width: 70%;
+}
+
+.textoManito {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    max-width: 250px;
 }
 
 .divBanner {
@@ -50,6 +68,10 @@ footer {
 .publicaciones div {
     border-top: solid 1px #ebebeb;
     line-height: 1px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .img {
@@ -62,25 +84,25 @@ footer {
     border: solid 1px #39b54a;
     border-radius: 100%;
     padding: 6px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
 }
 
 p {
     font-size: 12px;
 }
 
-.textoManito {
-    text-align: center;
-    font-weight: 400;
-    font-size: 17px;
-}
 
 h4 {
     font-size: 18px;
+    width: 30%;
 }
 
 h5 {
-    font-size: 16px;
+    font-size: 18px;
     color: #39b54a;
+    width: 70%;
 }
 
 h3 {
@@ -107,7 +129,12 @@ h3 {
     padding: 5px;
     font-size: 17px;
 }
-
+.top-navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
 .bot-navbar {
     display: none;
 }
@@ -147,31 +174,49 @@ footer div p {
 @media (min-width: 600px) {
     .publicaciones {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
     }
-    .bot-navbar {
+    #soloDesk {
         display: block;
     }
-    #soloMobile {
-        display: none;
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 @media (min-width: 810px) {
     .publicaciones {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
     }
     .top-navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+    .busqueda {
+        width: 30%;
+    }
+    .barra-busqueda {
+        width: 80%;
+    }
+    .div-logo {
+        width: 30%;
+    }
+    .logo {
+        width: 60%;
+    }   
     .bot-navbar {
         display:flex;
         justify-content: space-between;
     }
-    .textoManito {
-        max-width: 250px;
-        text-align: right;
+    #soloMobile {
+        display: none;
+    }
+    #soloDesk {
+        display: block;
     }
     .formatoMenu {
         display: flex;
@@ -181,6 +226,29 @@ footer div p {
     }
     #left-navbar {
         padding-left: 0px;
+    }
+    #right-navbar {
+        padding-right: 0px;
+    }
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1250px) {
+    .publicaciones {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .textoManito {
+        max-width: 250px;
+        text-align: right;
+    }
+    .productos {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: none;
     }
 }
 
