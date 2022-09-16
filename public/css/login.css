@@ -37,59 +37,6 @@ footer {
     font-size: 17px;
     max-width: 250px;
 }
-.divBanner {
-    margin: 0px;
-}
-.banner {
-    width: 100vw;
-}
-.vista-ofertas {
-    font-size: 24px;
-    margin-left: 15px;
-}
-.publicaciones {
-    background-color: white;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
-}
-.publicaciones div {
-    border-top: solid 1px #ebebeb;
-    line-height: 1px;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.img {
-    width: 100%;
-}
-.fa-truck {
-    color: #39b54a;
-    justify-content: center;
-    border: solid 1px #39b54a;
-    border-radius: 100%;
-    padding: 6px;
-    position: absolute;
-    right: 15px;
-    top: -15px;
-}
-p {
-    font-size: 12px;
-}
-h4 {
-    font-size: 18px;
-    width: 30%;
-}
-h5 {
-    font-size: 18px;
-    color: #39b54a;
-    width: 70%;
-}
-h3 {
-    font-size: 16px;
-}
 #soloDesk {
     display: none;
 }
@@ -139,29 +86,22 @@ footer div i {
     size: 2em;
     color: #1259c3;
 }
+footer div h3 {
+    font-size: 16px;
+}
 footer div p {
     color: #666;
 }
+footer p {
+    font-size: 12px;
+}
 
 @media (min-width: 600px) {
-    .publicaciones {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 40%;
-    }
     #soloDesk {
         display: block;
     }
-    .productos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 @media (min-width: 810px) {
-    .publicaciones {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 40%;
-    }
     .top-navbar {
         display: flex;
         justify-content: space-between;
@@ -201,24 +141,11 @@ footer div p {
     #right-navbar {
         padding-right: 0px;
     }
-    .productos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 @media (min-width: 1250px) {
-    .publicaciones {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
     .textoManito {
         max-width: 250px;
         text-align: right;
-    }
-    .productos {
-        display: flex;
-        flex-wrap: nowrap;
-        max-width: none;
     }
 }
 @media (min-width: 1300px) {
