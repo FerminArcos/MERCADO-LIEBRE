@@ -96,6 +96,27 @@ footer p {
     font-size: 12px;
 }
 
+.divForm {
+    margin: 0 auto;
+}
+.registerForm {
+    padding: 20px 15px;
+    margin: 0 auto;
+    max-width: 250px;
+}
+.control-form {
+    margin-bottom: 15px;
+}
+.control-form label {
+    display: block;
+}
+.control {
+    padding: 3px;
+}
+.button-form {
+    padding: 5px 10px;
+}
+
 @media (min-width: 600px) {
     #soloDesk {
         display: block;

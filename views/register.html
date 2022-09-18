@@ -36,26 +36,28 @@
         </nav>
     </header>
     <main>
-        <form action="" method="post">
-            <div>
-                <input type="text" name="name" placeholder="Nombre y Apellido">
+        <div class="divForm">
+        <form action="" method="post" class="registerForm">
+            <div class="control-form">
+                <label>Registrarse</label>
+                <input type="text" name="name" placeholder="Nombre y Apellido" class="control">
             </div>
-            <div>
-                <input type="text" name="username" placeholder="Nombre de Usuario">
+            <div class="control-form">
+                <input type="text" name="username" placeholder="Nombre de Usuario" class="control">
             </div>
-            <div>
+            <div class="control-form">
                 <label>Fecha de Nacimiento</label>
-                <input type="date" name="birthdate" id="">
+                <input type="date" name="birthdate" class="control">
             </div>
-            <div>
-                <input type="text" name="adress" placeholder="Domicilio">
+            <div class="control-form">
+                <input type="text" name="adress" placeholder="Domicilio" class="control">
             </div>
-            <div>
+            <div class="control-form">
                 <label>Perfil de Usuario</label>
                 <label><input type="radio" name="buyer" id="userProfile">Comprador</label>
                 <label><input type="radio" name="seller" id="userProfile">Vendedor</label>
             </div>
-            <div>
+            <div class="control-form">
                 <label>Categorias de interes</label>
                 <label><input type="checkbox" name="electro" id="category">Electro</label>
                 <label><input type="checkbox" name="moda" id="category">Moda</label>
@@ -63,19 +65,20 @@
                 <label><input type="checkbox" name="jugueteria" id="category">Jugueteria</label>
                 <label><input type="checkbox" name="vida-sana" id="category">Vida sana</label>
             </div>
-            <div>
+            <div class="control-form">
                 <label>Foto de Usuario</label>
                 <input type="file" name="profilePicture" id="profilePicture">
             </div>
-            <div>
-                <input type="password" name="password" id="password" placeholder="Contraseña">
+            <div class="control-form">
+                <input type="password" name="password" id="password" placeholder="Contraseña" class="control">
             </div>
-            <div>
-                <input type="password" name="confirmPassword" id="password" placeholder="Confirmar contraseña">
-            </div>
-            <button type="submit">Enviar</button>
-            <button type="reset">Borrar</button>
+            <div class="control-form">
+                <input type="password" name="confirmPassword" id="password" placeholder="Confirmar contraseña" class="control">
+            </div class="control-form">
+            <button type="submit" class="button-form">Enviar</button>
+            <button type="reset" class="button-form">Borrar</button>
         </form>
+        </div>
     </main>
     <footer>
         <div>
